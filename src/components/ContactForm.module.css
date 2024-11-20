@@ -1,0 +1,35 @@
+.ContactFormClass {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.InputClass {
+  width: 200px;
+}
+.ButtonClass {
+  width: 200px;
+  display: flex;
+  margin-top: 10px;
+}
+/*ContactItem.jsx style*/
+.buttonDelete {
+  background-color: rgb(142, 133, 133);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  /* margin-left: 20px; */
+}
+
+.buttonDelete:hover {
+  background-color: darkred;
+}
+.contactItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+/*Filter styles */
+.FindContact {
+  margin-left: 20px;
+}
